@@ -1,0 +1,22 @@
+.searchPage {
+  flex: 0.88;
+  padding-left: 250px;
+  padding-right: 250px;
+  background-color: #f9f9f9;
+}
+.searchPage__filter {
+  padding: 20px;
+  display: flex;
+  color: gray;
+  cursor: pointer;
+}
+
+.searchPage > hr {
+  height: 1px;
+  border: 0;
+  background-color: lightgray;
+}
+.searchPage > h3 {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}

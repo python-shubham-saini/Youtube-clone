@@ -1,12 +1,11 @@
 import React from 'react'
 import './SidebarRow.css'
-import HomeSharpIcon from '@material-ui/icons/HomeSharp';
 
-export const SidebarRow = () => {
+export const SidebarRow = ({selected, Icon, title}) => {
     return (
-        <div className="sidebarRow">
-            <HomeSharpIcon className="row-icon" fontSize="medium"/>
-            <div className="row-name">Home</div>
+        <div className={`sidebarRow ${selected && "selected"}`}>
+            <Icon className={`row-icon ${selected && "selected"}`}/>
+            <div className="row-name">{title}</div>
         </div>
     )
 }

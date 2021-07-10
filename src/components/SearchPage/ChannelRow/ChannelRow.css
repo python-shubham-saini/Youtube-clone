@@ -1,0 +1,20 @@
+.channelRow {
+  display: flex;
+  margin-bottom: 20px;
+}
+.channel__avatar {
+  margin-top: 20px;
+  height: 175px;
+  width: 175px;
+}
+.channel__info {
+  margin: 35px;
+  padding-right: 200px;
+}
+.channel__info > h4 {
+  font-size: 20px;
+}
+.channel__info > p {
+  font-size: 14px;
+  color: rgb(104, 104, 104);
+}

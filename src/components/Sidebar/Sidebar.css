@@ -1,3 +1,14 @@
 .sidebar-container {
-  flex: 0.2;
+  flex: 0.12;
+}
+.sidebar-container > hr {
+  border: 0;
+  height: 1px;
+  background-color: lightgray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.sidebar-container > h4 {
+  color: rgb(141, 141, 141);
+  margin-left: 25px;
 }

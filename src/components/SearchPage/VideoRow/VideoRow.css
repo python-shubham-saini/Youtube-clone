@@ -1,0 +1,17 @@
+.videoRow {
+  display: flex;
+  height: 140px;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.videorow__image {
+  height: 140px;
+  width: 250px;
+}
+.video__info {
+  margin-left: 20px;
+}
+.video__title > p {
+  color: rgb(141, 141, 141);
+}
